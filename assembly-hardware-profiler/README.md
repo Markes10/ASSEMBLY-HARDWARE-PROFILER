@@ -1,4 +1,4 @@
-# 07 - Ultra-Low-Level Microarchitecture Profiler (x86-64 NASM)
+# Ultra-Low-Level Microarchitecture Profiler (x86-64 NASM)
 
 ## Executive Overview
 A bare-metal hardware profiler written in **x86-64 Assembly (NASM syntax)**. It interfaces directly with CPU silicon using serializing instructions (`CPUID`, `RDTSCP`) to probe microarchitectural capabilities (AVX-512, AMX, cache line size), measure cycle latencies for L1/L2/L3 caches, and benchmark instruction pipeline throughput without OS abstraction layers.
