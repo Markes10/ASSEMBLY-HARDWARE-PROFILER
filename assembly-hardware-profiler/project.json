@@ -1,0 +1,8 @@
+{
+  "id": "07",
+  "name": "07-assembly-hardware-profiler",
+  "title": "Ultra-Low-Level Autonomous Hardware Profiler",
+  "language": "Assembly",
+  "domain": "Microarchitecture & Bare-Metal Hardware Profiling",
+  "description": "Performs cycle-accurate CPU instruction throughput profiling, cache hierarchy latency benchmarking (L1/L2/L3/RAM), and microarchitectural bottleneck detection."
+}
